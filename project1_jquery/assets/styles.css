@@ -31,15 +31,19 @@ body {
 }
 
 h3 {
-    margin-top: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 
 h4 {
     font-weight: normal;
     font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 /*Letter and Button Section*/
@@ -47,10 +51,19 @@ h4 {
 .letter-container {
     width:491px;
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     margin-left: 90px;
     margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.analysis {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     
 }
 
@@ -73,7 +86,7 @@ h4 {
     width: 300px;
     margin-left: 20px;
     margin-right: 42px;
-    font-size: 60px;
+    font-size: 63px;
     margin-top: 0px;
     display: flex;
     
@@ -84,6 +97,7 @@ h4 {
     width: 50px; 
     margin-right: 15px;
     text-align: center;
+    margin-top: -4px;
 }
 
 .c5 {
@@ -91,6 +105,7 @@ h4 {
     width: 50px;
     margin-right: 15px;
     text-align: center;
+    margin-top: -4px;
 }
 
 .ds {
@@ -98,6 +113,7 @@ h4 {
     width: 50px;
     margin-right: 15px;
     text-align: center;
+    margin-top: -4px;
 }
 
 .ez {
@@ -105,12 +121,14 @@ h4 {
     width: 50px;
     margin-right: 15px;
     text-align: center;
+    margin-top: -4px;
 }
 
 .f2 {
     flex-direction: column;
     width: 50px;
     text-align: center;
+    margin-top: -4px;
 }
 
 
@@ -128,9 +146,8 @@ h4 {
 
 #button.tilda {
     font-size: 500px;
-    margin-bottom: -290px;
-    margin-top: -350px;
-    margin-left: 210px;
+    margin-top: -300px;
+    margin-bottom: -260px;
     z-index:30;
 }
     
@@ -163,6 +180,7 @@ h4 {
 .personal-info {
     margin-left: 10px;
     font-size: 10px;
+    margin-top: -5px;
 }
 
 .about-me-sources {
@@ -171,6 +189,7 @@ h4 {
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: 20px;
+    margin-top: 10px;
     
 }
 
