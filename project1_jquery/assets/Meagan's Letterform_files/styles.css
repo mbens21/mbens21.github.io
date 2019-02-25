@@ -67,8 +67,8 @@ h1 {
 
 .analysis {
     position: absolute;
-    top: 45.25px;
-    left: 133px;
+    top: 45px;
+    left: 130px;
     
 }
 
@@ -187,8 +187,6 @@ h1 {
 .title-paragraph {
     width: 350px;
     margin-right: 20px;
-    font-style: normal;
-    font-weight: 300;
 }
 
 #button.tilda {
