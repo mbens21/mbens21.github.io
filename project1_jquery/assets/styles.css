@@ -201,8 +201,10 @@ h1 {
     color: #737373;
     cursor:pointer;
     height: 200px;
-   
 }
+
+
+
 
 #button.tilda:hover {
     color: white;
@@ -263,6 +265,8 @@ h1 {
     margin-top: 0px;
     align-items: flex-start;
     width: 300px;
+    position: inherit;
+    z-index: 300;
 }
 
 .title-paragraph p {
