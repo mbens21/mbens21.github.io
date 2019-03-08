@@ -1,6 +1,5 @@
 body {
-   
-    background-color: #F2F2F2;
+   background-color: #83b9a7;
 }
 
 .container {
@@ -28,29 +27,26 @@ h1 {
     height: 480px;
     background-color: white;
     margin: 0 auto;
-    position: relative;
-      
+    position: relative;   
 }
 
 #quizlink {
-    background-color: #D9C2F4;
+    background-color: lightgray;
     height: 10px;
     width: 160px;
     padding: 20px;
-    margin-top: 20px;
-    
-    
-    
+    margin-top: 20px;   
 }
 
 #instructions {
     width:200px;
     height: 50px;
-    background-color: skyblue;
+    background-color: lightgray;
     margin-top: 20px;
     font-family: serif;
     font-size: 20px;
 }
+
 
 .instructions-quiz {
     display: flex;
@@ -88,7 +84,6 @@ h1 {
     font-family: serif;
     color: black;
     border-radius: 50%;
-    
 }
 
 #wisconsin {
@@ -100,7 +95,6 @@ h1 {
     font-family: serif;
     color: black;
     border-radius: 50%;
-    
 }
 
 #wisconsin:hover {
@@ -111,20 +105,81 @@ h1 {
 
 .modal {
     visibility: hidden;
-    height: 300px;
-    background-color: yellow;
-    
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.65)
+}
+
+.modal-content {
+    width:60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    background-color: whitesmoke;
+    z-index: 200;
+}
+
+.close {
+   color: black;
+   float: right;
+   font-size: 28px;
+   font-weight: normal;
+   margin-right: 10px;
+
 }
 
 .visible {
     visibility: visible !important; 
 }
 
+/* BASE QUIZ STYLES */
+/* These styles ensure that the necessary elements are hidden for toggling */
 
-.question {
-    background-color: skyblue;
+/* DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING!! */
+
+.startQuiz,
+.nextQuestion,
+.backToQuestion,
+.questions li.question,
+.questions li.question .responses,
+.questions li.question .responses .correct,
+.questions li.question .responses .incorrect,
+.quizResults {
+    display: none;
 }
 
-.answer {
-    background-color: #D9C2F4;
+/* If response messages are disabled or only shown on quiz completion,
+   nextQuestion button IS checkAnswer button - so it must be displayed */
+.nextQuestion.checkAnswer {
+    display: block;
 }
+
+ol.questions,
+ul.answers,
+ul.responses,
+ol.questions li,
+ul.answers li,
+ul.responses li {
+    list-style-type: none;
+}
+
+/* Accessibility */
+.quizName span:first-child {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
+
