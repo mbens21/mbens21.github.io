@@ -61,9 +61,9 @@ var quizJSON = {
             "incorrect": "<p><span>Not quite.</span></p>" // no comma here
         },
         { // Question 5
-            "q": "Which nationanl park has one of the world's largest volcanoes under it?",
+            "q": "Which national park has one of the world's largest volcanoes under it?",
             "a": [
-                {"option": "Rocky Mountains",    "correct": false},
+                {"option": "Glacier",    "correct": false},
                 {"option": "Zion",     "correct": false},
                 {"option": "Yellowstone",      "correct": true},
                 {"option": "Grand Teton",   "correct": false}// no comma here
