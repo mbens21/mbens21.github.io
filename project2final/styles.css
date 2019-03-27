@@ -94,7 +94,7 @@ h1 {
 
 
 .about-title {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     margin-bottom: -20px;
 }
@@ -114,13 +114,13 @@ h1 {
 }
 
 .about-sources {
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 30px;
     margin-right: 20px;
 }
 
 #sources {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 
@@ -137,14 +137,14 @@ h1 {
     font-family: trade-gothic-next, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 23px;
     text-align:left;
 }
 
 
 .modal-content-sources {
-    width:30%;
-    height:26%;
+    width:32%;
+    height:27%;
     position: absolute;
     left: 35%;
     top: 27%;
@@ -155,7 +155,7 @@ h1 {
     font-family: trade-gothic-next, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 23px;
     text-align:left;
 }
 
@@ -311,8 +311,8 @@ ul li {
 }
 
 .modal-content {
-    width:55%;
-    height:37.5%;
+    width:58%;
+    height:38.5%;
     position: absolute;
     left: 22%;
     top: 30%;
