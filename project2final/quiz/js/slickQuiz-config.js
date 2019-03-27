@@ -50,7 +50,7 @@ var quizJSON = {
             "incorrect": "<p><span>Not Quite.</span></p>" // no comma here
         },
         { // Question 4
-            "q": "Which national park joins and colloborates with Waterton Lakes National Park in Alberton, Canada to form the world's first international peace park?",
+            "q": "Which national park joins and collaborates with Waterton Lakes National Park in Alberton, Canada to form the world's first international peace park?",
             "a": [
                 {"option": "Great Smoky Mountains",    "correct": false},
                 {"option": "Glacier",     "correct": true},
