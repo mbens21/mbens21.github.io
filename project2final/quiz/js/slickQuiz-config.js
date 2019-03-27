@@ -54,7 +54,7 @@ var quizJSON = {
             "a": [
                 {"option": "Great Smoky Mountains",    "correct": false},
                 {"option": "Glacier",     "correct": true},
-                {"option": "Acadia",      "correct": false},
+                {"option": "Yosemite",      "correct": false},
                 {"option": "Grand Canyon",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
