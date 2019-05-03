@@ -1,0 +1,80 @@
+body {
+    font-family: proxima-nova, sans-serif;
+/*    width: 23.4375em;*/
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.name-contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0em;
+    margin-top: 1em;
+    padding-bottom: 0em;
+    border-bottom: 0.125em solid black;
+ 
+}
+
+h1 {
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3382C4;
+    margin-right: 2.4em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+h3 {
+    font-weight: 600;
+    font-style: normal;
+    color: #3382C4;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+   
+}
+
+h4 {
+    font-size: 0.625em;
+}
+
+h5 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (min-width:960px){
+    
+    body {
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        margin-right: 5em;
+    }
+    
+    h4 {
+        font-size: 0.9375em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+}
