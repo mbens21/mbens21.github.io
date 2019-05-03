@@ -11,11 +11,17 @@ body {
 .logo {
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 5em;
+    width: 6em;
     margin-right: auto;
     margin-left: auto;
 
 }
+
+.logo-menu {
+    display: flex;
+    flex-direction: column;
+}
+
 
 a {
     display: block;
@@ -28,10 +34,45 @@ a {
     font-family: franklin-gothic-urw, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin: 0 auto;
+}
 
+footer {
+    height: 150px;
+    width: 100vw;
+    background-color: lightgray;
+    margin-top: 10vh;
 
+}
+
+.footer-info {
+    display: flex;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.8em;
+    width: 90vw;
+    margin: 0 auto 0 auto;
+    padding-top: 1.5em;
+
+}
+
+.footer-info a {
+    display: flex;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+.footer-info a:hover {
+    color: white;
+
+}
+
+.footer-info a:nth-child(-n+4) {
+    margin-right: 1em;
 }
 
 p {
@@ -134,6 +175,7 @@ img#about-me {
     font-weight: 500;
     font-style: normal;
     font-size: 2em;
+
 }
 
 .white-overlay {
@@ -171,25 +213,6 @@ img#about-me {
 
 /*////////////////////////////////////////////////////*/
 
-.logo-menu {
-    display: flex;
-    flex-direction: column;
-}
-
-footer {
-    height: 150px;
-    width: 100vw;
-    background-color: lightgray;
-    margin-top: 10vh;
-}
-
-.footer-info {
-    display: flex;
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 0.8em;
-}
 
 
 /*project page*/
@@ -232,6 +255,9 @@ h5 {
 .contact-info {
     width: 90vw;
     font-family: franklin-gothic-urw, sans-serif;
+    margin: 1em auto 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -245,14 +271,32 @@ h4 {
 h6 {
     font-weight: 600;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0.5em auto 0 auto;
+}
+
+h7 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25em;
+
+}
+
+h9 {
+    font-size: 1.5em;
 }
 
 
 .explanation {
     margin: 0 auto;
     padding-top: 1.2em;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: franklin-gothic-urw, sans-serif;
+}
+
+.explanation-marketing-page {
+    margin: 0 auto;
     font-size: 1.5em;
     text-align: left;
     font-family: franklin-gothic-urw, sans-serif;
@@ -275,6 +319,10 @@ h6 {
     }
 
     .explanation {
+        padding-top: 1.2em;
+    }
+
+    .explanation-marketing-page {
         padding-top: 1.2em;
     }
 
@@ -339,12 +387,16 @@ h6 {
 @media only screen and (min-width: 1200px) {
 
 
-    
-      .images {
+
+    .images {
         margin-top: 3em;
     }
-    
+
     .explanation {
+        padding-top: 2em;
+    }
+
+    .explanation-marketing-page {
         padding-top: 2em;
     }
 
